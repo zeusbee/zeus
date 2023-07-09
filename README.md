@@ -17,11 +17,9 @@ Zeus (宙斯)古希腊神话中神王，奥林匹斯十二主神之首,众神之
 * 智能营销
 * 统一数据服务API
 * 数据智能化
-# 竞聘分析
-
+# 竞品分析
 # zeus 架构
 [zeus架构图](https://www.processon.com/diagraming/64a449e9db2f304bcc2b7d39 "zeus")
-
 * 数据源：db binlong,MQ(Kafka,RocketMQ)，dubbo,http 等，可按需求自由扩展SDK
 * 数据加工层：Flink 任务完成数据加工处理，实时、离线数据处理完成后统一存储
 * 物理存储层：加工后的数据存储在屋里存储层，可按照应用场景，实时性要求选择CH,Redis,MongoDB ，Hadoop 等存储介质
